@@ -13,7 +13,7 @@ do
   for second_file in *:
   do
     if [[ first_file != second ]]
-    then . /home/aragret/Alina/other_projects/lyosha/enveomics/Scripts/$2.rb -1 first_file -2 second_file -T
+    then ruby /home/aragret/Alina/other_projects/viral_project/enveomics/Scripts/$2.rb -1 first_file -2 second_file
     fi
   done
 done
